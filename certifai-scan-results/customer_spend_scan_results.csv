@@ -1,1 +1,5 @@
-
+context,type,overall fairness,Feature (Gender),Group details (0) in Feature (Gender),Group details (1) in Feature (Gender),Feature (Locality),Group details (1) in Feature (Locality),Group details (2),Group details (3),Feature (Married),Group details (0) in Feature (Married),Group details (1) in Feature (Married),explainability,Num features (1),Num features (10),Num features (2),Num features (3),Num features (4),Num features (5),Num features (6),Num features (7),Num features (8),Num features (9),robustness
+linear_regression,burden,100.0,100.0,1.0,1.0,100.0,1.0,1.0,1.0,100.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0
+random_forest,burden,100.0,100.0,1.0,1.0,100.0,1.0,1.0,1.0,100.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0
+light_GBM,burden,100.0,100.0,1.0,1.0,100.0,1.0,1.0,1.0,100.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0
+decision_tree,burden,100.0,100.0,1.0,1.0,100.0,1.0,1.0,1.0,100.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0
