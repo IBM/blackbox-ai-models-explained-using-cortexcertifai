@@ -1,6 +1,6 @@
 # Black box AI models explained using Cortex Certifai
 
-Cortex Certifai evaluates AI models for robustness, fairness, and explainability, and allows users to compare different models or model versions for these qualities.
+Trust is the foundation of digital systems. Without trust, AI cannot deliver on its potential value. However, machine learning models often function inside black-boxes. This has resulted in significant business risks that hampers Enterprise AI adoption. Cortex Certifai detects and scores 6 dimensions of AI business risk: performance, bias/fairness, explainability, robustness, compliance, and data drift. Cortex Certifai evaluates AI models for robustness, fairness, and explainability, and allows users to compare different models or model versions for these qualities.
 
 Certifai is available in three Editions:
 
@@ -11,7 +11,9 @@ Certifai Pro
 Single-user deployment running in a cloud-hosted VM	
 
 Certifai Enterprise
-Multi-user server deployment running in Kubernetes, plus the Certifai AI Risk Assessment Questionnaire and Policy Select compliance toolset
+Multi-user server deployment running in Kubernetes, plus the Certifai AI Risk Assessment Questionnaire and Policy Select compliance toolset. 
+
+This code pattern demonstrates how to use Certifai Toolkit for creating scans to evaluate the performance of multiple predictive models.
 
 # How does Certifai work?
 Data Scientists create scan definitions, which are comprised of:
@@ -39,7 +41,7 @@ Flow:
 1. Log in to Watson Studio powered by spark, initiate Cloud Object Storage, and  create a project.
 2. Upload the .csv data file to Object Storage.
 3. Load the Data File in Watson Studio Notebook.
-4. Install Cortex Certifai Toolkit  in the Watson Studio Notebook.
+4. Install Cortex Certifai Toolkit in the Watson Studio Notebook.
 5. Visualization for explainability and interpretability of AI Model for the three different types of Users.
 
 ## Included components
