@@ -65,6 +65,9 @@ Data Scientists can use the evaluation results to improve models and model train
 
 We can run the scan using Cortex Certifai using Watson Studio and command line interface. This code pattern demonstrates how to run the scan using Watson studio on two different machine learning techniques, Regression & Classification. 
 
+**Download Certifai Toolkit**
+
+Toolkit Edition: You can signup for free use of the Certifai Toolkit on the [CognitiveScale website](https://www.cognitivescale.com/download-certifai/). A download link will be provided in the confirmation email.
 
 # Steps using Cortex Certifai on Watson Studio
 
@@ -96,7 +99,7 @@ Define the project by giving a Name and hit 'Create'.
 ## 3. Add Data
 
 [Clone this repo](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai)
-Navigate to [data](https://github.com/IBM/predict-fraud-using-auto-ai/tree/master/data) and save the file on the disk. Review the data glossary from the data folder for more details. `Note: Citation is needed to use this dataset for any other projects.` 
+Navigate to [data/assets](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/tree/main/data/assets) and save the file by name `german_credit_eval.csv` on the disk. The dataset will be available under the Certifai toolkit which was downloaded in the previous step.
 
 Click on Assets and select Browse and add the csv file from your file system.
 
@@ -110,8 +113,7 @@ Click on Assets and select Browse and add the csv file from your file system.
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL for Classification : 
-* Enter this Notebook URL for Regression : 
+* Enter this Notebook URL : https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/notebooks/WS_classifier.ipynb
 * Select the runtime (8 vCPU and 32GB RAM)
 * Click the `Create` button.
 
