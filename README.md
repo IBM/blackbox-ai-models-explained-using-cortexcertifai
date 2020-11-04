@@ -58,5 +58,96 @@ Flow:
 * [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 
+We can run the scan using Cortex Certifai using Watson Studio and command line interface. This code pattern demonstrates how to run the scan using Watson studio on two different machine learning techniques, Regression & Classification. 
+
+
+# Steps using Cortex Certifai on Watson Studio
+
+
+1. [Create an account with IBM Cloud](#1-create-an-account-with-ibm-cloud)
+1. [Create a new Watson Studio project](#2-create-a-new-watson-studio-project)
+1. [Add Data](#3-add-data)
+1. [Create the notebook](#4-create-the-notebook)
+1. [Insert the data as dataframe](#5-insert-the-data-as-dataframe)
+1. [Run the notebook](#6-run-the-notebook)
+1. [Analyze the results](#7-analyze-the-results)
+
+## 1. Create an account with IBM Cloud
+
+Sign up for IBM [**Cloud**](https://console.bluemix.net/). By clicking on create a free account you will get 30 days trial account.
+
+## 2. Create a new Watson Studio project
+
+Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
+
+Click on New Project and select per below.
+
+![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/create_prj.png)
+
+Define the project by giving a Name and hit 'Create'.
+
+![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/def_prj.png)
+
+## 3. Add Data
+
+[Clone this repo](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai)
+Navigate to [data](https://github.com/IBM/predict-fraud-using-auto-ai/tree/master/data) and save the file on the disk. Review the data glossary from the data folder for more details. `Note: Citation is needed to use this dataset for any other projects.` 
+
+Click on Assets and select Browse and add the csv file from your file system.
+
+![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/add_asset.png)
+
+## 4. Create the notebook
+
+* Open [IBM Watson Studio](https://dataplatform.ibm.com).
+* Go to the project and click on Add 
+* Click on `Create notebook` to create a notebook.
+* Select the `From URL` tab.
+* Enter a name for the notebook.
+* Optionally, enter a description for the notebook.
+* Enter this Notebook URL for Classification : 
+* Enter this Notebook URL for Regression : 
+* Select the runtime (8 vCPU and 32GB RAM)
+* Click the `Create` button.
+
+After the notebook is imported, click on `Not Trusted` and select the option as Yes to trust the source of the notebook.
+
+![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/not_trusted.png)
+
+`This notebook has been created to demonstrate the steps for building the model using Watson Studio platform. For other usecases, the notebook has to be created from scratch.`
+
+## 5. Insert the data as dataframe
+
+Click on 0010 icon at the top right side which will bring up the data assets tab.
+
+![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/add.png)
+
+Click on Insert to code dropdown and select the option Insert Pandas Dataframe.
+
+![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/insert_dataframe.png)
+
+## 6. Run the notebook
+
+When a notebook is executed, what is actually happening is that each code cell in
+the notebook is executed, in order, from top to bottom.
+
+Each code cell is selectable and is preceded by a tag in the left margin. The tag
+format is `In [x]:`. Depending on the state of the notebook, the `x` can be:
+
+* A blank, this indicates that the cell has never been executed.
+* A number, this number represents the relative order this code step was executed.
+* A `*`, this indicates that the cell is currently executing.
+
+There are several ways to execute the code cells in your notebook:
+
+* One cell at a time.
+  * Select the cell, and then press the `Play` button in the toolbar.
+* Batch mode, in sequential order.
+  * From the `Cell` menu bar, there are several options available. For example, you
+    can `Run All` cells in your notebook, or you can `Run All Below`, that will
+    start executing from the first cell under the currently selected cell, and then
+    continue executing all cells that follow.
+
+## 7. Analyze the results
 
 
