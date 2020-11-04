@@ -2,6 +2,8 @@
 
 Trust is the foundation of digital systems. Without trust, AI cannot deliver on its potential value. However, machine learning models often function inside black-boxes. This has resulted in significant business risks that hampers Enterprise AI adoption. Cortex Certifai detects and scores 6 dimensions of AI business risk: performance, bias/fairness, explainability, robustness, compliance, and data drift. Cortex Certifai evaluates AI models for robustness, fairness, and explainability, and allows users to compare different models or model versions for these qualities.
 
+Cortex Certifai generates the first-ever composite trust score, the AI Trust Index, that measures data and model risks related to Performance, Data Quality, Robustness, Explainability, Fairness, and Compliance. Certifai can be applied to any black-box model including machine learning models, statistical models, business rules, and other predictive models and works with a variety of input data.
+
 Certifai is available in three Editions:
 
 Certifai Toolkit		
@@ -13,9 +15,10 @@ Single-user deployment running in a cloud-hosted VM
 Certifai Enterprise
 Multi-user server deployment running in Kubernetes, plus the Certifai AI Risk Assessment Questionnaire and Policy Select compliance toolset. 
 
-This code pattern demonstrates how to use Certifai Toolkit for creating scans to evaluate the performance of multiple predictive models.
+This code pattern demonstrates how to use Certifai Toolkit for creating scans to evaluate the performance of multiple predictive models using IBM Watson Studio platform.
 
 # How does Certifai work?
+
 Data Scientists create scan definitions, which are comprised of:
 
 One or more trained models that they want to evaluate
