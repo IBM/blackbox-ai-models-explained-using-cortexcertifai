@@ -6,13 +6,13 @@ Cortex Certifai generates the first-ever composite trust score, the AI Trust Ind
 
 Certifai is available in three Editions:
 
-Certifai Toolkit		
+**Certifai Toolkit**		
 Everything you need to create, run, and view scans locally. 
 
-Certifai Pro
+**Certifai Pro**
 Single-user deployment running in a cloud-hosted VM	
 
-Certifai Enterprise
+**Certifai Enterprise**
 Multi-user server deployment running in Kubernetes, plus the Certifai AI Risk Assessment Questionnaire and Policy Select compliance toolset. 
 
 This code pattern demonstrates how to use Certifai Toolkit for creating scans to evaluate the performance of multiple predictive models using IBM Watson Studio platform.
@@ -156,3 +156,22 @@ There are several ways to execute the code cells in your notebook:
 ## 7. Analyze the results
 
 
+
+
+
+
+
+## Related Links :
+
+[Know more about Cortex Certifai](https://www.cognitivescale.com/certifai/)
+
+# Troubleshooting
+
+[See DEBUGGING.md.](DEBUGGING.md)
+
+
+# License
+
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the Developer [Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+
+Check the [ASL FAQ link](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN) for more details
