@@ -41,7 +41,7 @@ Data Scientists can use the evaluation results to improve models and model train
 
 # Architecture Diagram
 
-![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/architecture.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/architecture.png)
 
 1. Log in to Watson Studio powered by spark, initiate Cloud Object Storage, and  create a project.
 2. Upload the .csv data file to Object Storage.
@@ -87,11 +87,11 @@ Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/).
 
 Click on New Project and select per below.
 
-![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/create_prj.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/create_prj.png)
 
 Define the project by giving a Name and hit 'Create'.
 
-![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/def_prj.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/def_prj.png)
 
 ## 3. Add Data
 
@@ -100,7 +100,7 @@ Navigate to [data](https://github.com/IBM/predict-fraud-using-auto-ai/tree/maste
 
 Click on Assets and select Browse and add the csv file from your file system.
 
-![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/add_asset.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/add_asset.png)
 
 ## 4. Create the notebook
 
@@ -117,7 +117,7 @@ Click on Assets and select Browse and add the csv file from your file system.
 
 After the notebook is imported, click on `Not Trusted` and select the option as Yes to trust the source of the notebook.
 
-![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/not_trusted.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/not_trusted.png)
 
 `This notebook has been created to demonstrate the steps for building the model using Watson Studio platform. For other usecases, the notebook has to be created from scratch.`
 
@@ -125,11 +125,11 @@ After the notebook is imported, click on `Not Trusted` and select the option as 
 
 Click on 0010 icon at the top right side which will bring up the data assets tab.
 
-![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/add.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/add.png)
 
 Click on Insert to code dropdown and select the option Insert Pandas Dataframe.
 
-![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/insert_dataframe.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/insert_dataframe.png)
 
 ## 6. Run the notebook
 
