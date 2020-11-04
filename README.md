@@ -36,7 +36,9 @@ Business decision makers and Compliance Officers are able to view the evaluation
 
 Data Scientists can use the evaluation results to improve models and model training to provide more trustworthy AI models.
 
-Flow:
+# Architecture Diagram
+
+![](https://github.com/IBM/predict-fraud-using-auto-ai/blob/master/images/architecture.png)
 
 1. Log in to Watson Studio powered by spark, initiate Cloud Object Storage, and  create a project.
 2. Upload the .csv data file to Object Storage.
