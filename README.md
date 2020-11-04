@@ -158,7 +158,7 @@ There are several ways to execute the code cells in your notebook:
 ## 7. Analyze the results
 
 
-
+After we run all cells in the notebook, the scan results are uploaded onto object storage which can be downloaded per below. 
 
 
 
