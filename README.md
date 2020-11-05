@@ -172,6 +172,7 @@ View results file
 ## How to run the scan locally using CLI
 
 * Create a folder in your local file system, [Download this repo](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai) into the folder and unzip it. 
+* `Please make sure that you have installed Python version 3.6 or higher.`
 * Open a command prompt, CD into the subfolder of notebooks and type `Jupyter Notebook`. When the notebook is launched, select the notebook by name `regressor.ipynb` and run all the cells using top down approach. 
 * After we run the cells, the scan is complete and results are stored in the current directory of the notebook under `reports` folder. 
 * Open a new command prompt, CD into the `reports` folder and type the command `certifai console reports`. This will start the flask server and the UI is ready for review.
@@ -200,12 +201,11 @@ This code pattern will be very helpful for developers, machine learning engineer
 
 ## Related Links :
 
-[Know more about Cortex Certifai](https://www.cognitivescale.com/certifai/)
+[Click here to know more about Cortex Certifai](https://www.cognitivescale.com/certifai/)
 
 # Troubleshooting
 
 [See DEBUGGING.md.](DEBUGGING.md)
-
 
 # License
 
