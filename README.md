@@ -157,11 +157,39 @@ There are several ways to execute the code cells in your notebook:
 
 ## 7. Analyze the results
 
+After we run all cells in the notebook, the scan results are uploaded onto object storage which can be downloaded by following these steps. Login to [IBM Cloud](https://cloud.ibm.com/), navigate to `Dashboard` on the left hand side and click on `Storage`. Click on the bucket name which is an extension of the project name in Watson Studio and select the `scan_results.csv` file for downloading it.
 
-After we run all cells in the notebook, the scan results are uploaded onto object storage which can be downloaded per below. 
+Cloud Object Storage
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/cos.png)
+
+Download results file
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/dwn_scan_results.png)
+
+View results file
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_results.png)
 
 
+### How to run the scan locally using CLI
 
+* Create a folder in your local file system, [Download this repo](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai) into the folder and unzip it. 
+* Open a command prompt, CD into the subfolder of notebooks and type `Jupyter Notebook`. When the notebook is launched, select the notebook by name `regressor.ipynb` and run all the cells using top down approach. 
+* After we run the cells, the scan is complete and results are stored in the current directory of the notebook under `reports` folder. 
+* Open a new command prompt, CD into the `reports` folder and type the command `certifai console reports`. This will start the flask server and the UI is ready for review.
+* Launch the UI at http://localhost:8000/ and the scan reports along with comparitive analysis are ready for review and analysis.
+
+**Scan results for Classification usecase - Predict Fraud**
+
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_c.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_results_c.png)
+
+**Scan results for Regression usecase - Predict Customer spend**
+
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_r.png)
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_res_r.png)
+
+As per business requirement, we can choose the best model for production deployment. The scan result files in csv format are also available for review under [certifai-scan-results folder](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/tree/main/certifai-scan-results).
+
+This code pattern will be very helpful for developers, machine learning engineers, data scientists, architects to compare multiple models and evaluate under different criteria to select the best model as per their requirement. 
 
 ## Related Links :
 
