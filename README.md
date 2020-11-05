@@ -179,13 +179,19 @@ View results file
 
 ### Scan results for Classification usecase - Predict Fraud
 
-![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_c.png)
 ![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_results_c.png)
+
+**Comparative analysis**
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_c.png)
+
 
 ### Scan results for Regression usecase - Predict Customer spend
 
-![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_r.png)
 ![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_res_r.png)
+
+**Comparative analysis**
+![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_r.png)
+
 
 As per business requirement, we can choose the best model for production deployment. The scan result files in csv format are also available for review under [certifai-scan-results folder](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/tree/main/certifai-scan-results).
 
