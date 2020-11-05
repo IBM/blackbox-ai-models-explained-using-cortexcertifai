@@ -192,6 +192,7 @@ View results file
 **Comparative analysis**
 ![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_r.png)
 
+**Note :** The scan results are dependent on the input dataset. If we change the input data, the scan results change accordingly. 
 
 As per business requirement, we can choose the best model for production deployment. The scan result files in csv format are also available for review under [certifai-scan-results folder](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/tree/main/certifai-scan-results).
 
