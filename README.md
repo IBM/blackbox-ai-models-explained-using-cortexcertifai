@@ -202,6 +202,7 @@ This code pattern will be very helpful for developers, machine learning engineer
 ## Related Links :
 
 [Click here to know more about Cortex Certifai](https://www.cognitivescale.com/certifai/)
+[Click here for additional documentation](https://cognitivescale.github.io/cortex-certifai/docs/quickstart#best-practices-for-new-toolkit-users)
 
 # Troubleshooting
 
