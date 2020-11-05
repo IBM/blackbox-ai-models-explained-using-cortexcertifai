@@ -169,7 +169,7 @@ View results file
 ![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_results.png)
 
 
-### How to run the scan locally using CLI
+## How to run the scan locally using CLI
 
 * Create a folder in your local file system, [Download this repo](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai) into the folder and unzip it. 
 * Open a command prompt, CD into the subfolder of notebooks and type `Jupyter Notebook`. When the notebook is launched, select the notebook by name `regressor.ipynb` and run all the cells using top down approach. 
@@ -177,19 +177,19 @@ View results file
 * Open a new command prompt, CD into the `reports` folder and type the command `certifai console reports`. This will start the flask server and the UI is ready for review.
 * Launch the UI at http://localhost:8000/ and the scan reports along with comparitive analysis are ready for review and analysis.
 
-**Scan results for Classification usecase - Predict Fraud**
+### Scan results for Classification usecase - Predict Fraud
 
 ![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_c.png)
 ![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_results_c.png)
 
-**Scan results for Regression usecase - Predict Customer spend**
+### Scan results for Regression usecase - Predict Customer spend
 
 ![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_details_r.png)
 ![](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/blob/main/images/scan_res_r.png)
 
 As per business requirement, we can choose the best model for production deployment. The scan result files in csv format are also available for review under [certifai-scan-results folder](https://github.com/IBM/blackbox-ai-models-explained-using-cortexcertifai/tree/main/certifai-scan-results).
 
-This code pattern will be very helpful for developers, machine learning engineers, data scientists, architects to compare multiple models and evaluate under different criteria to select the best model as per their requirement. 
+This code pattern will be very helpful for developers, machine learning engineers, data scientists, architects to compare multiple models and evaluate under different criteria to select the best model as per their requirement. We can also run remote scans from Red Hat Open Shift cluster provided there is a storage allocated from Amazon S3, GCP or Azure.
 
 ## Related Links :
 
