@@ -1,10 +1,10 @@
 # Black box AI models explained using Cortex Certifai
 
-Explainability of AI models is a difficult task which is made simpler by Cortex Certifai. It evaluates AI models for robustness, fairness, and explainability, and allows users to compare different models or model versions for these qualities. Cortex Certifai generates the first-ever composite trust score, the AI Trust Index, that measures data and model risks related to Performance, Data Quality, Robustness, Explainability, Fairness, and Compliance. Certifai can be applied to any black-box model including machine learning models, statistical models, business rules, and other predictive models and works with a variety of input data.
+Explainability of AI models is a difficult task which is made simpler by Cortex Certifai. It evaluates AI models for robustness, fairness, and explainability, and allows users to compare different models or model versions for these qualities. Certifai can be applied to any black-box model including machine learning models, predictive models and works with a variety of input datasets.
 
 # How does Certifai work?
 
-Data Scientists create scan definitions, which are comprised of trained models that they want to evaluate for the parameters listed below. 
+Data Scientists can create model scan definitions, which are comprised of trained models that they want to evaluate for the parameters listed below. 
 
 **Performance Metric:** (e.g. Accuracy)
 
@@ -16,7 +16,7 @@ Data Scientists create scan definitions, which are comprised of trained models t
 
 **Explanations:** display the change that must occur in a dataset with given restrictions to obtain a different outcome. 
 
-Business decision makers and compliance officers are able to view the evaluation comparison through visualizations and scores to select the best models for business goals and to identify whether or not models meet thresholds for robustness, fairness, and/or explainability. Data Scientists can use the evaluation results for analysis to provide more trustworthy AI models. 
+Business decision makers are able to view the evaluation comparison through visualizations and scores to select the best models for business goals and to identify whether or not models meet thresholds for robustness, fairness, and/or explainability. Data Scientists can use the evaluation results for analysis to provide more trustworthy AI models. 
 
 This code pattern demonstrates how to use Certifai Toolkit for creating scans to evaluate the performance of multiple predictive models using IBM Watson Studio platform.
 
