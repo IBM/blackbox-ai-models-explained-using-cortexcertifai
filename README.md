@@ -1,34 +1,24 @@
 # Black box AI models explained using Cortex Certifai
 
-Explainability of AI models is a difficult task which is made simpler by Cortex Certifai. It evaluates AI models for robustness, fairness, and explainability, and allows users to compare different models or model versions for these qualities.
-
-# How does it work
-
-Cortex Certifai generates the first-ever composite trust score, the AI Trust Index, that measures data and model risks related to Performance, Data Quality, Robustness, Explainability, Fairness, and Compliance. Certifai can be applied to any black-box model including machine learning models, statistical models, business rules, and other predictive models and works with a variety of input data.
-
-This code pattern demonstrates how to use Certifai Toolkit for creating scans to evaluate the performance of multiple predictive models using IBM Watson Studio platform.
+Explainability of AI models is a difficult task which is made simpler by Cortex Certifai. It evaluates AI models for robustness, fairness, and explainability, and allows users to compare different models or model versions for these qualities. Cortex Certifai generates the first-ever composite trust score, the AI Trust Index, that measures data and model risks related to Performance, Data Quality, Robustness, Explainability, Fairness, and Compliance. Certifai can be applied to any black-box model including machine learning models, statistical models, business rules, and other predictive models and works with a variety of input data.
 
 # How does Certifai work?
 
-Data Scientists create scan definitions, which are comprised of:
+Data Scientists create scan definitions, which are comprised of trained models that they want to evaluate for the parameters listed below. 
 
-One or more trained models that they want to evaluate
-A single curated dataset (NOTE: For explanations a subset of the dataset may be used.)
-Models are evaluated/scored for one or more of the following:
+**Performance Metric:** (e.g. Accuracy)
 
-**Performance Metric:** This is a measurement that the data scientist has provided test data to calculate or pre-calculated scores for in the model definition. (e.g. Accuracy)
+**Robustness:** How the model generalizes on new data.
 
-**Robustness:** measures how well models retain an outcome given changes to the data feature values. The more robust a model is, the greater the changes required to alter the outcome.
+**Fairness by group:** measures the bias in the data. 
 
-**Fairness by group:** measures the difference required to change the outcome for different groups implicit in a feature given the same model and dataset. For example, implicit groups male, female, and nonbinary belong to the feature, "gender". A fair model shows that all 3 groups require a similar amount of change to alter the results.
+**Explainability:** measures the explanations provided for each model. 
 
-**Explainability:** measures the average simplicity of counterfactual explanations provided for each model. An explanation that requires a single changed feature will score 100%. Explanations that require more changed features will score lower.
+**Explanations:** display the change that must occur in a dataset with given restrictions to obtain a different outcome. 
 
-**Explanations:** display the prediction provided through the generation of counterfactuals for the change that must occur in a dataset with given restrictions to obtain a different outcome. To alter an outcome some dataset feature values must change while others remain constant. Each observation row of the dataset is displayed in a table that shows the changed features, as well as the original values and counterfactual values for that feature. Users can explore the entire dataset one observation at a time to understand what features changed and by how much to obtain a different result.
+Business decision makers and compliance officers are able to view the evaluation comparison through visualizations and scores to select the best models for business goals and to identify whether or not models meet thresholds for robustness, fairness, and/or explainability. Data Scientists can use the evaluation results for analysis to provide more trustworthy AI models. 
 
-Business decision makers and Compliance Officers are able to view the evaluation comparison visualizations and scores to select the best models for business goals and to identify whether or not models meet thresholds for robustness, fairness, and/or explainability.
-
-Data Scientists can use the evaluation results to improve models and model training to provide more trustworthy AI models.
+This code pattern demonstrates how to use Certifai Toolkit for creating scans to evaluate the performance of multiple predictive models using IBM Watson Studio platform.
 
 # Architecture Diagram
 
