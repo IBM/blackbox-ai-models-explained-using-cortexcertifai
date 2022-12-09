@@ -1,3 +1,7 @@
+# WARNING: This repository is no longer maintained
+
+> This repository will not be updated. The repository will be kept available in read-only mode.
+
 # Black box AI models explained using Cortex Certifai
 
 Explainability of AI models is a difficult task which is made simpler by Cortex Certifai. It evaluates AI models for robustness, fairness, and explainability, and allows users to compare different models or model versions for these qualities. Certifai can be applied to any black-box model including machine learning models, predictive models and works with a variety of input datasets.
